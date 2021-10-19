@@ -1,1 +1,1 @@
-# u3chat
+# The GL-CDN

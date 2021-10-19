@@ -1,0 +1,77 @@
+{
+  "name": "u3-chatting",
+  "version": "0.0.72",
+  "cdn_url": "https://cdn.jsdelivr.net/gh/gl-cdn/u3chat@v0.0.72/dist/",
+  "json": [
+    "assets/vi.512c8b68.json"
+  ],
+  "assets": [
+    {
+      "order": 1,
+      "position": "head",
+      "tag": "script",
+      "attr": {
+        "type": "module",
+        "crossorigin": "",
+        "src": "assets/index.3c89cbb7.js"
+      }
+    },
+    {
+      "order": 2,
+      "position": "head",
+      "tag": "link",
+      "attr": {
+        "rel": "modulepreload",
+        "href": "assets/vendor.b4a3f96f.js"
+      }
+    },
+    {
+      "order": 3,
+      "position": "head",
+      "tag": "link",
+      "attr": {
+        "rel": "stylesheet",
+        "href": "assets/index.3dee795f.css"
+      }
+    },
+    {
+      "order": 99,
+      "position": "head",
+      "tag": "script",
+      "attr": {
+        "type": "module"
+      },
+      "content": "!function(){try{new Function(\"m\",\"return import(m)\")}catch(o){console.warn(\"u3-chatting: loading legacy build because dynamic import is unsupported, syntax error above should be ignored\");var e=document.getElementById(\"u3-chatting-legacy-polyfill\"),n=document.createElement(\"script\");n.src=e.src,n.onload=function(){System.import(document.getElementById('u3-chatting-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}}();"
+    },
+    {
+      "order": 100,
+      "position": "body",
+      "tag": "script",
+      "attr": {
+        "nomodule": ""
+      },
+      "content": "!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();"
+    },
+    {
+      "order": 101,
+      "position": "body",
+      "tag": "script",
+      "attr": {
+        "nomodule": "",
+        "id": "u3-chatting-legacy-polyfill",
+        "src": "assets/polyfills-legacy.c2e46614.js"
+      }
+    },
+    {
+      "order": 102,
+      "position": "body",
+      "tag": "script",
+      "attr": {
+        "nomodule": "",
+        "id": "u3-chatting-legacy-entry",
+        "data-src": "assets/index-legacy.7802ccc7.js"
+      },
+      "content": "System.import(document.getElementById('u3-chatting-legacy-entry').getAttribute('data-src'))"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://cdn.jsdelivr.net/gh/gl-cdn/u3chat@v0.0.72/dist/assets/chatting.0daca760.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>U3 Chatting</title>
+
+    <style>
+      :root {
+        --color-primary: #059669; /*colors.green.500*/
+        --color-secondary: #f59e0b; /*colors.amber.500*/
+        --u3-chat-height: 480px;
+      }
+
+      body {
+        width: 100wh;
+        height: 100vh;
+        background-color: #eeeeee;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #u3-chatting {
+        display: flex;
+        width: 720px;
+        min-width: auto !important;
+      }
+    </style>
+    <!-- <meta property="u3:session" content="6EIkcb6Z/lHrMZcC3diqoEBXVGg5h0gK1BIU2qiSLpn+1CrME1Ug7bsG9LuBqG7egz6ZMBFvvaPfDWX/sgHVGg==" /> -->
+    <meta property="u3:session" content="7xA1bWwoKc7Rf0eeFu4wkrU/c9ITK+Abr9oaNJgUcyzP0n/fX2OKH/L4bgUif0vgXTGzjEeq1wbWMM5oxPTC+g==" />
+    <meta property="u3:secret" content="P53n5xUt95GnEem8" />
+    <script type="module" crossorigin src="https://cdn.jsdelivr.net/gh/gl-cdn/u3chat@v0.0.72/dist/assets/index.3c89cbb7.js"></script>
+    <link rel="modulepreload" href="https://cdn.jsdelivr.net/gh/gl-cdn/u3chat@v0.0.72/dist/assets/vendor.b4a3f96f.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gl-cdn/u3chat@v0.0.72/dist/assets/index.3dee795f.css">
+    <script type="module">!function(){try{new Function("m","return import(m)")}catch(o){console.warn("u3-chatting: loading legacy build because dynamic import is unsupported, syntax error above should be ignored");var e=document.getElementById("u3-chatting-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('u3-chatting-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}}();</script>
+  </head>
+  <body>
+    <div id="u3-chatting"></div>
+    
+  
+  <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
+    <script nomodule id="u3-chatting-legacy-polyfill" src="https://cdn.jsdelivr.net/gh/gl-cdn/u3chat@v0.0.72/dist/assets/polyfills-legacy.c2e46614.js"></script>
+    <script nomodule id="u3-chatting-legacy-entry" data-src="https://cdn.jsdelivr.net/gh/gl-cdn/u3chat@v0.0.72/dist/assets/index-legacy.7802ccc7.js">System.import(document.getElementById('u3-chatting-legacy-entry').getAttribute('data-src'))</script>
+</body>
+</html>
