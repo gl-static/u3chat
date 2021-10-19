@@ -1,1 +1,1 @@
-# The GL-CDN
+# The GL-CDN.
