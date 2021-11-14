@@ -1,7 +1,7 @@
 {
   "name": "u3-chatting",
-  "version": "0.3.5",
-  "cdn_url": "https://cdn.jsdelivr.net/gh/gl-static/u3chat@v0.3.5/dist/",
+  "version": "0.3.6",
+  "cdn_url": "https://cdn.jsdelivr.net/gh/gl-static/u3chat@v0.3.6/dist/",
   "json": [
     "assets/vi.1b8d9573.json"
   ],
