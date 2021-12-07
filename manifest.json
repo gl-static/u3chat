@@ -1,7 +1,7 @@
 {
   "name": "u3-chatting",
-  "version": "0.5.3",
-  "cdn_url": "https://cdn.jsdelivr.net/gh/gl-static/u3chat@v0.5.3/dist/",
+  "version": "0.5.4",
+  "cdn_url": "https://cdn.jsdelivr.net/gh/gl-static/u3chat@v0.5.4/dist/",
   "json": [
     "assets/vi.5d2a795c.json"
   ],
@@ -68,7 +68,7 @@
       "attr": {
         "nomodule": "",
         "id": "u3-chatting-legacy-polyfill",
-        "src": "assets/polyfills-legacy.e7974f95.js"
+        "src": "assets/polyfills-legacy.d3a4a8b5.js"
       }
     },
     {
