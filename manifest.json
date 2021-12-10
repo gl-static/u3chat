@@ -1,7 +1,7 @@
 {
   "name": "u3-chatting",
-  "version": "0.5.19",
-  "cdn_url": "https://cdn.jsdelivr.net/gh/gl-static/u3chat@v0.5.19/dist/",
+  "version": "0.5.20",
+  "cdn_url": "https://cdn.jsdelivr.net/gh/gl-static/u3chat@v0.5.20/dist/",
   "json": [
     "assets/vi.5d2a795c.json"
   ],
@@ -12,7 +12,7 @@
       "tag": "script",
       "attr": {
         "type": "module",
-        "src": "https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.flat%2CArray.prototype.flatMap%2CIntl%2CglobalThis"
+        "src": "https://polyfill.io/v3/polyfill.min.js?features=Intl%2CIntl.DateTimeFormat%2CIntl.DateTimeFormat.prototype.formatToParts%2CIntl.DateTimeFormat.%7EtimeZone.all%2CIntl.DateTimeFormat.%7EtimeZone.golden%2CIntl.DisplayNames%2CIntl.ListFormat%2CIntl.Locale%2CIntl.NumberFormat%2CIntl.PluralRules%2CIntl.RelativeTimeFormat%2CIntl.getCanonicalLocales%2CArray.prototype.flat%2CArray.prototype.flatMap%2CglobalThis"
       }
     },
     {
