@@ -1,7 +1,7 @@
 {
   "name": "u3-chatting",
-  "version": "0.6.28",
-  "cdn_url": "https://cdn.jsdelivr.net/gh/gl-static/u3chat@v0.6.28/dist/",
+  "version": "0.6.29",
+  "cdn_url": "https://cdn.jsdelivr.net/gh/gl-static/u3chat@v0.6.29/dist/",
   "json": [
     "assets/vi.5d2a795c.json"
   ],
@@ -40,7 +40,7 @@
       "tag": "link",
       "attr": {
         "rel": "stylesheet",
-        "href": "assets/index.dd6d866e.css"
+        "href": "assets/index.8cbde25c.css"
       }
     },
     {
