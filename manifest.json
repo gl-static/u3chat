@@ -1,7 +1,7 @@
 {
   "name": "u3-chatting",
-  "version": "0.6.40",
-  "cdn_url": "https://cdn.jsdelivr.net/gh/gl-static/u3chat@v0.6.40/dist/",
+  "version": "0.6.41",
+  "cdn_url": "https://cdn.jsdelivr.net/gh/gl-static/u3chat@v0.6.41/dist/",
   "json": [
     "assets/vi.5d2a795c.json"
   ],
@@ -22,7 +22,7 @@
       "attr": {
         "type": "module",
         "crossorigin": "",
-        "src": "assets/index.71270c2b.js"
+        "src": "assets/index.64340b0d.js"
       }
     },
     {
@@ -68,7 +68,7 @@
       "attr": {
         "nomodule": "",
         "id": "u3-chatting-legacy-polyfill",
-        "src": "assets/polyfills-legacy.99b7437e.js"
+        "src": "assets/polyfills-legacy.7847428b.js"
       }
     },
     {
@@ -78,7 +78,7 @@
       "attr": {
         "nomodule": "",
         "id": "u3-chatting-legacy-entry",
-        "data-src": "assets/index-legacy.91f62cb4.js"
+        "data-src": "assets/index-legacy.1a89fe9d.js"
       },
       "content": "System.import(document.getElementById('u3-chatting-legacy-entry').getAttribute('data-src'))"
     }
